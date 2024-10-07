@@ -1,3 +1,0 @@
-id 1 name Толик age 21
-id 2 name Иннокентий age 22 weight 120
-id 3 name Нуриман age 45
