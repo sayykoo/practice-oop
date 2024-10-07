@@ -1,27 +1,24 @@
 
-# //pract1
+# # //pract1
 
 # /zadanie 1
 
-# class Goods:
-#     def set_types(self, title, weight, tp, price):
-#         self.title = title
-#         self.weight = weight
-#         self.tp = tp
-#         self.price = price
+class Goods:
+    title = "Мороженое"
+    weight = 151 
+    tp = "Еда"
+    price = 12321
         
-#     def display(self):
-#         print(f"{self.tp} {self.title} весит {self.weight} грамм, стоит {self.price}")
-        
-# eat = Goods()
+eat = Goods()
 
-# eat.set_types("Мороженое", 151, "Еда", 12312)
-# eat.display()
+eat.price = 112
+eat.weight = 12
+print(f"{eat.tp} {eat.title} - вес {eat.weight} грамм, цена {eat.price} тенге")
     
     
     
     
-# /zadanie 2
+# # /zadanie 2
 
 # class Car():
 #     pass
